@@ -4,16 +4,25 @@ import TheWelcome from './components/TheWelcome.vue'
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+  <header class="pt-3 pb-3 bg-red-500 flex justify-between">
+    <div>
+      <p>Logo</p>
     </div>
+    <div>
+      <nav>
+        <ul class="flex">
+          <li><a target="_blank" href="https://www.iim.fr/">IIM</a></li>
+          <li><a href="https://www.iim.fr/">IIM</a></li>
+          <li><a href="https://www.iim.fr/">IIM</a></li>
+        </ul>
+      </nav>
+    </div>
+    
   </header>
 
   <main>
-    <TheWelcome />
+    
+    <!-- <TheWelcome /> -->
   </main>
 </template>
 
